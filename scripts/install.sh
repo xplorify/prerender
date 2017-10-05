@@ -26,5 +26,6 @@ cd /prerender
 npm i
 npm i prerender-mongodb-cache --save
 npm update cache-manager
+npm update mongodb
 
 cp /scripts/server.js /prerender/
