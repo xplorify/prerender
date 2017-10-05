@@ -4,6 +4,7 @@
 apt-get update
 apt-get install build-essential \
                 libssl-dev \
+                libfontconfig \
                 g++ \
                 flex \
                 bison \
@@ -16,6 +17,9 @@ apt-get install build-essential \
                 make \
                 pkg-config \
                 git -y
+
+# enable exclamation marks ! in bash
+set +H
 
 git clone https://github.com/creationix/nvm.git $NVM_DIR
 cd $NVM_DIR
@@ -38,7 +42,8 @@ git clone https://github.com/prerender/prerender.git
 cd /prerender 
 npm i
 npm i prerender-mongodb-cache --save
-npm update cache-manager
-npm update mongodb
+
+cd /prerender/node_modules/prerender-mongodb-cache
+npm update mongodb cache-manager --save
 
 cp /scripts/server.js /prerender/
