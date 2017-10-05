@@ -17,5 +17,5 @@ server.use(prerender.removeScriptTags());
 server.use(prerender.httpHeaders());
 // server.use(prerender.inMemoryHtmlCache());
 // server.use(prerender.s3HtmlCache());
-server.use(require('prerender-mongodb-cache'));
+//server.use(require('prerender-mongodb-cache'));
 server.start();
