@@ -20,7 +20,7 @@ export NODE_PATH=$NVM_DIR/v$NODE_VERSION/lib/node_modules
 export PATH=$NVM_DIR/v$NODE_VERSION/bin:$PATH
 
 cd /
-git clone git@github.com:prerender/prerender.git
+git clone https://github.com/prerender/prerender.git
 
 cd /prerender 
 npm i
