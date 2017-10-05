@@ -1,0 +1,12 @@
+server/node_modules/
+server/uploads/**
+client/node_modules/
+client1/dist/
+client1/node_modules/
+client1/dist/
+client3/node_modules/
+client3/dist/
+cert/certificate.pfx
+server/logger/*.log
+server/npm-debug*
+npm-debug*
