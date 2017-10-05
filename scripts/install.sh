@@ -2,7 +2,20 @@
 
 
 apt-get update
-apt-get install build-essential libssl-dev curl autoconf automake libtool nasm make pkg-config pngquant git -y
+apt-get install build-essential \
+                libssl-dev \
+                g++ \
+                flex \
+                bison \
+                gperf \
+                curl \
+                autoconf \
+                automake \
+                libtool \
+                nasm \
+                make \
+                pkg-config \
+                git -y
 
 git clone https://github.com/creationix/nvm.git $NVM_DIR
 cd $NVM_DIR
