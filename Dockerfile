@@ -5,7 +5,7 @@ MAINTAINER Goran Jovanov <goran.jovanov@gmail.com>
 ENV NVM_DIR /usr/local/.nvm
 ENV NODE_VERSION 8.4.0
 ENV NODE_ENV dev
-ENV MONGOLAB_URI
+ENV MONGOLAB_URI ""
 
 
 # Add files
