@@ -44,6 +44,8 @@ npm i
 npm i prerender-mongodb-cache --save
 
 cd /prerender/node_modules/prerender-mongodb-cache
-npm update mongodb cache-manager --save
+rm -rf node_modules
+cp /scripts/package.json .
+npm i
 
 cp /scripts/server.js /prerender/
