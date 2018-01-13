@@ -22,5 +22,5 @@ RUN \
                 --restart="on-failure:10" \
 		-p 4000:3000 \
                 -e NODE_ENV="prd" \
-                -e MONGOLAB_URI="mongodb://XplorifyAdmin:Xp12345!@live.xplorify.net:1212/admin" \
+                -e MONGOLAB_URI="mongodb://mongouser:mongopassword@domain:port/db" \
 		xplorify/prerender`
